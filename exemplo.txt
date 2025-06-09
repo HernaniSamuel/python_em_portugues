@@ -1,0 +1,29 @@
+defina voto(idade):
+    se idade menor_que 16:
+        imprima("Inapto para votar!")
+    senão:
+        se idade maior_ou_igual_a 16 e idade menor_que 18:
+            imprima("voto facultativo")
+
+        senão_se idade maior_ou_igual_a 18 e idade menor_que 64:
+            imprima("voto obrigatório")
+
+        senão:
+            imprima("voto facultativo")
+
+se __name__ igual_a "__main__":
+    idade recebe 14
+    imprima(f"idade de {idade} anos")
+    voto(idade)
+
+    idade recebe 17
+    imprima(f"idade de {idade} anos")
+    voto(idade)
+
+    idade recebe 25
+    imprima(f"idade de {idade} anos")
+    voto(idade)
+
+    idade recebe 66
+    imprima(f"idade de {idade} anos")
+    voto(idade)

@@ -1,0 +1,21 @@
+{
+  "imprima": "print",
+  "tamanho": "len",
+  "abrir": "open",
+  "lista": "list",
+  "dicionário": "dict",
+  "texto": "str",
+  "inteiro": "int",
+  "decimal": "float",
+  "intervalo": "range",
+  "enumerar": "enumerate",
+  "zipar": "zip",
+  "mapear": "map",
+  "filtrar": "filter",
+  "somar": "sum",
+  "máximo": "max",
+  "mínimo": "min",
+  "absoluto": "abs",
+  "arredondar": "round",
+  "ordenado": "sorted"
+}
